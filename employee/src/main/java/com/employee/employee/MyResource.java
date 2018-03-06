@@ -13,7 +13,7 @@ public class MyResource {
 
   
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.TEXT_PLAIN) // comments added
     public String getIt() {
         return "Got it!";
     }
